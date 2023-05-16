@@ -1,9 +1,59 @@
-cabecalho{
-    background-color: blue; 
+body{
+    font-family: sans-serif;
+}
+*{  margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho{
+    background-color:rgba(6, 19, 95, 0.705);
     color: white;
+    display: flex;
+    padding: 30px;
+    font-size: 24px;
+    justify-content: space-around;
 }
 
 .cabecalho-imagem{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+}
+.cabecalho-item{
+    display: inline-block;
+    padding: 0 100px;
+
+}
+.turma{
+    background-image:linear-gradient(rgba(6, 19, 95, 0.705),rgba(181, 183, 194, 0.705));
+}
+
+.turma-titulo{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.turma-imagem{
+    width: 300px;
+}
+
+.estudante{
+    background-image: linear-gradient(rgba(6, 19, 95, 0705),rgba(163, 173, 228, 0.705));
+}
+.estudante-titulo{
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 0;
+}
+.estudante-div{
+    text-align: center;
+}
+.estudante-imagem{
+    width: 90px;
+    height: 100px;
+}
+.estudante-icone{
+    width: 52px;
+    height: 53px;
+}
+.estudante-legenda{
+    font-size: 14px;
 }
